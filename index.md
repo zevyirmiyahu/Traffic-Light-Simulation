@@ -1,11 +1,7 @@
 # Traffic Light Simulation
 
 ## Description: 
-This is a mini-project that allows a user to input 3 integer durations for light changing. The light durations are for traffic light #1 and specify how long a given 
-light will remain on. Traffic light number 2 is then created and rendered to the screen and synchronizes in a way to ensure no two lights are ever green AND yellow at any one time. 
-The purpose of this project was to build a mathematical and computer model that can easily simulate various intersections with differing time restrictions. 
-The main class builds the main menu that takes user input, then creates an instance of Sync which creates 2 instances of TrafficLight and syncs their light mechanisms based on the user input.
-
+This mini-project creates and renders two synchronized traffic lights. The progam ensures that no two lights are ever green AND yellow at any one time. The user must define their desired light durations for the first traffic light. The program then creates a second traffic light with a specific schedule and runs both. The program renders the output to the screen for an added visual effect. The mathematical mapping for the second traffic light's durations is explained below. 
 
 ## Mathematics:
 ![Math](https://zevyirmiyahu.github.io/images/TrafficLight_Images/TrafficLightMath.png)
